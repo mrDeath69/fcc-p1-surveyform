@@ -1,0 +1,68 @@
+body {
+  width: 100%;
+  font-family: verdana;
+  background-image: url(ac-red-img.jpg);
+  background-size: cover;
+  background-position: center;
+  
+}
+#description {
+  text-align: center;
+  margin: 3px auto 1rem auto;
+}
+
+#title {
+  margin: 3rem auto 0 auto;
+  font-size: 40px;
+  text-align: center;
+}
+
+form{
+  width: 60vw;
+  min-width: 300px;
+  max-width: 500px;
+  margin: 0 auto;
+  background: #990011aa ;
+  padding: 15px;
+  color: #F2AA4CFF;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 3px;
+  margin: 2px;
+  border: 2px solid #F2AA4CFF;
+  border-radius: 2px;
+  background-color: #990011FF;
+  color: #FCF6F5FF;
+}
+
+
+.inline {
+  width: unset;
+  margin: 0 0.5rem 0 0;
+  vertical-align: middle;
+}
+
+hr {
+  border: 1.5px solid #2D2926FF;
+  padding: 0.5px;
+  margin: 1rem auto;
+}
+
+input[type="submit"] {
+  display: block;
+  margin: 5px auto;
+  width: 50%;
+  height: 2rem;
+  font-size: 18px;
+  background-color: #F2AA4CFF;
+  color: #990011FF;
+  border-color: #2D2926FF;
+}
